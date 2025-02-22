@@ -6,4 +6,10 @@
 ## Setup MFA
 - setup aws account continued
 
-## Creating an admin user
+## Install terraform
+- https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli 
+- verifty with 'terraform version'
+
+## Authenticating terraform
+- run 'source .env' when creating new terminal
+- this keeps the .env credentials per terminal
