@@ -55,3 +55,6 @@
 
 ## Terraform Providers
 - how terraform interacts with remote APIs and platforms
+- 'terraform version' will show provider versions as well
+- Exercise done in 05-providers
+- free practice at https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise09-providers.md
