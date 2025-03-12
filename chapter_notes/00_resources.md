@@ -1,5 +1,6 @@
 # Resources
 - terraform registry = https://registry.terraform.io/
+- ami locator = https://cloud-images.ubuntu.com/locator/ec2/
 
 ## Terraform CLI commandss
 - here is a list of short commands to run with terraform CLI
