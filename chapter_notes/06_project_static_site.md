@@ -14,7 +14,7 @@
 - End of video one: should be able to see S3 bucket in console
 3) need to enable bucket access (done in s3.tf at "aws_s3_bucket_public_access_block")
 - End of video two: should be able to see bucket.
-    * when clicking into the bucket and selecting *Permissions*, should be able to see the bucket policy
+    * when clicking into the bucket and selecting **Permissions**, should be able to see the bucket policy
 
 4) have a static website
 - end of video three: created a static s3 website using terraform. this was done with uploading files
