@@ -2,6 +2,7 @@
 
 ## Key Notes
 - when iterating over a map, can return a list or map. and vice versa
+- Maps CANNOT have duplicates, to override this, add a (...) at the end of the declaration
 
 ## Exercise 1:  Operators in Terraform
 - exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise22-operators.md
@@ -20,3 +21,4 @@
 
 ## Exercise 4: Transforming lists into maps and vice versa
 - exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise25-lists_maps.md
+- check out directory **09-expressions** > lists-maps.tf
