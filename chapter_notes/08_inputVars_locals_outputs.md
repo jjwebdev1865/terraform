@@ -6,6 +6,7 @@
 - Best practice, for input variables, is to ALWAYS provide a type
 - checkout examples of terraform.tfvars to see how different environments are set up
     * can pass in to terminal command _var-file_ to pass the chose tfvars to pass to the apply
+- use the sensitive tag in outputs for hidding private information/data
 
 ## Exercise: Declaring and Using Input Variables
 - GOAL: to receive aws region
