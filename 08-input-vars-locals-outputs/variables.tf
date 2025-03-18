@@ -15,6 +15,11 @@ variable "additional_tags" {
   default = {} // move to .tfVars
 }
 
+variable "my_sensitive_value" {
+  type      = string
+  sensitive = true
+}
+
 # Note: Object example
 variable "ec2_volume_config" {
   type = object({

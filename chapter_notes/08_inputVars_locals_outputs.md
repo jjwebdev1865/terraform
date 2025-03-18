@@ -42,3 +42,13 @@
 - exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise19-locals.md
 - NOTE: no imports needed between files in terraform
     * locals can be passed between files
+
+## Exercise 7: Working with outputs - overview
+- exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise20-outputs.md
+- check out directory **08-inputVars_locals_outputs** > outputs.tf
+- terraform output -json 
+    * get command for seeing outputs for directory
+
+## Exercise 8: Working with Sensitive Values - overview
+- exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise21-sensitive_values.md
+- output shows the key but the value is marked as *<sensative>*
