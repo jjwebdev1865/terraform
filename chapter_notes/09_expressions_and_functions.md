@@ -3,6 +3,8 @@
 ## Key Notes
 - when iterating over a map, can return a list or map. and vice versa
 - Maps CANNOT have duplicates, to override this, add a (...) at the end of the declaration
+- Splat expressions are a more concise way to iterate overs lists. **ONLY LISTS**
+    * can iterate over maps and objects using a *values()*
 
 ## Exercise 1:  Operators in Terraform
 - exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise22-operators.md
@@ -22,3 +24,8 @@
 ## Exercise 4: Transforming lists into maps and vice versa
 - exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise25-lists_maps.md
 - check out directory **09-expressions** > lists-maps.tf
+
+## Demo: Using Splat Expressions
+- check out directory **09-expressions** > splat.tf
+- splat expressions are used to shorten iterations
+    * only works with lists!
