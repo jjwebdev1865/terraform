@@ -29,3 +29,11 @@
 - check out directory **09-expressions** > splat.tf
 - splat expressions are used to shorten iterations
     * only works with lists!
+
+## Introduction to functions
+- lot of functions similar to standard coding languages, checkout out the hashicorp documentation for examples
+
+- exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise26-functions.md
+- check out directory **09-expressions** > functions.tf
+- this exercise uses a .yaml file for the first time in the course
+    * shows how to utilize the terraform function *yamldecode()* 
