@@ -36,3 +36,9 @@
 - exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise31-validation_list_input.md
 - validation example is in variables.tf
     * use of validation and *alltrue()* function new. very powerful because it checks for true false
+
+## Exercise 6: Creating ec2 instances using Map variables && Validation
+- exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise32-multiple_ec2_map_input.md
+- first instance of the for_each used. 
+    * so utilization of the _each_ var
+- validation also done here. had to use _values_ to iterate over the map
