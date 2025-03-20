@@ -42,3 +42,8 @@
 - first instance of the for_each used. 
     * so utilization of the _each_ var
 - validation also done here. had to use _values_ to iterate over the map
+
+## Exercise 7: Extending the config to receive subnet information
+- exercise link: https://github.com/lm-academy/terraform-course/blob/main/exercises/exercise34-provide_subnet_information.md
+- too many changse to dir so just watched changes
+- use can() to turn conditions into boolean validation
